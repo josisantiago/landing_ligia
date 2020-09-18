@@ -178,7 +178,7 @@ h2, h6 {
 }
 
 h3{
-    font-family: 'Dancing Script', cursive !important;
+    /* font-family: 'Dancing Script', cursive !important; */
     margin-top: 10px; 
 }
 
@@ -220,7 +220,7 @@ p {
 
 h4 {
     color: rgb(124, 61, 16);
-    font-family: 'Dancing Script', cursive !important;
+    /* font-family: 'Dancing Script', cursive !important; */
     background-color: rgba(243, 235, 230, 0.89);
     padding-top: 20px;
     
@@ -395,6 +395,11 @@ footer > p {
     margin-bottom: 10px; 
 }
 
+.destaque {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 18px;
+}
+
 #faixa {
     background-image:url(../img/faixa.png);
 }
@@ -521,7 +526,9 @@ footer > p {
 }
 
 .fones{
+    font-family: 'Lato', sans-serif !important;
     margin-top: 5px;
+    font-size: 18px;
 }
 
 .col-sm li {
